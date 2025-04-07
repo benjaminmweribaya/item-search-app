@@ -1,4 +1,3 @@
-```markdown
 # 🍎 ReactJS Item Search App with Favorites & Debounced Search
 
 This is a simple and elegant ReactJS web application that allows users to:
@@ -148,7 +147,7 @@ npm start
 
 **Benjamin Mweri Baya**
 
-Full-Stack Software Developer | Chemical Engineer | UI/UX Designer 
+Full-Stack Software Developer | UI/UX Designer 
 📧 b3njaminbaya@gmail.com  
 🔗 [LinkedIn](http://www.linkedin.com/in/benjamin-mweri-baya) | [GitHub](https://github.com/benjaminmweribaya)
 
