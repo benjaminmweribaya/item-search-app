@@ -1,4 +1,4 @@
-# 🍎 ReactJS Item Search App with Favorites & Debounced Search
+# 🍎 Item Search App with Favorites & Debounced Search
 
 This is a simple and elegant ReactJS web application that allows users to:
 
@@ -52,8 +52,8 @@ This is a simple and elegant ReactJS web application that allows users to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/benjaminmweribaya/react-favorites-search.git
-cd react-favorites-search
+git clone https://github.com/benjaminmweribaya/item-search-app.git
+cd item-search-app
 ```
 
 ---
