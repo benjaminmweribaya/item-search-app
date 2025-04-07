@@ -145,11 +145,10 @@ npm start
 
 ## 👤 Author
 
-**Benjamin Mweri Baya**
-
-Full-Stack Software Developer | UI/UX Designer 
-📧 b3njaminbaya@gmail.com  
-🔗 [LinkedIn](http://www.linkedin.com/in/benjamin-mweri-baya) | [GitHub](https://github.com/benjaminmweribaya)
+- **Benjamin Mweri Baya**
+- Full-Stack Software Developer | UI/UX Designer 
+- 📧 b3njaminbaya@gmail.com  
+- 🔗 [LinkedIn](http://www.linkedin.com/in/benjamin-mweri-baya) | [GitHub](https://github.com/benjaminmweribaya)
 
 ---
 
