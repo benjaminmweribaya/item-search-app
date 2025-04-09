@@ -11,7 +11,7 @@ const App = () => {
   const handleSearch = async (query) => {
     if (!query.trim()) return setItems([]);
     try {
-      const response = await axios.get(`http://localhost:5000/items?name_like=${query}`);
+      const response = await axios.get(`https://67f63bb842d6c71cca610dfb.mockapi.io/Items?name_like=${query}`);
       setItems(response.data);
     } catch (error) {
       console.error('Search error:', error);
