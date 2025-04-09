@@ -84,6 +84,16 @@ json-server --watch db.json --port 5000
 
 ---
 
+🔹 Option B: MockAPI (Online)
+The app is also configured to use MockAPI as an alternative backend.
+
+✅ MockAPI URL:
+https://67f63bb842d6c71cca610dfb.mockapi.io/Items
+
+⚠️ Note: Since MockAPI does not support partial matches using query parameters, the app fetches all items and filters them on the frontend when using this option.
+
+--- 
+
 ### 4. Run the React App
 
 ```bash
@@ -122,12 +132,14 @@ npm start
 | Lodash.debounce    | Debounced search functionality     |
 | CSS                | Styling and layout                 |
 | json-server        | Local mock API                     |
+| MockAPI            | Free hosted API for testing        | 
 
 ---
 
 ## 📋 Decisions and Justifications
 
-- 🧪 **Used `json-server`** to simulate a real API environment locally, avoiding the need for external endpoints
+- 🧪 **Used `json-server`** to simulate a real API environment locally, avoiding the need for external endpoints and MockAPI for flexibility
+- ⏱ Client-side filtering added for MockAPI due to its limitations
 - ⏱ **Implemented debounced search** using `lodash.debounce` to avoid excessive API hits and improve UX
 - 💡 **Used `name_like`** query param to filter by item name for more precise search results
 - 📦 **Built modular components** for clean code and separation of concerns
