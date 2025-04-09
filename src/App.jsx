@@ -11,8 +11,11 @@ const App = () => {
   const handleSearch = async (query) => {
     if (!query.trim()) return setItems([]);
     try {
-      const response = await axios.get(`https://67f63bb842d6c71cca610dfb.mockapi.io/Items?name_like=${query}`);
-      setItems(response.data);
+      const response = await axios.get("https://67f63bb842d6c71cca610dfb.mockapi.io/Items");
+      const filtered = response.data.filter(item =>
+        item.name.toLowerCase().includes(query.toLowerCase())
+      );
+      setItems(filtered);
     } catch (error) {
       console.error('Search error:', error);
     }
